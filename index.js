@@ -249,11 +249,11 @@ function get20s(artists, years, name){
   const results = [];
 
   for(let i = 0; i < artists.length; i++){ 
-    if((artists[i].years > 1899)){ 
+    if((parseInt(artists[i].years) > 1900)  && (parseInt(artists[i].years) < 2000)){ 
      results.push(artists[i].name); 
    }
  }
- console.log(results); 
+ return results; 
 }
 
 
