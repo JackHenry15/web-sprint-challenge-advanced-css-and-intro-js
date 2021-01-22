@@ -137,12 +137,16 @@ button:hover{
 
 @media(max-width:500px){
     nav{
-        width: 100%;
+        width: 60%;
+    }
+    .title-container h1{
+        font-size:4rem;
+        font-weight: bold;
     }
     .title-container div{
         width:100%;
-        /* height: */
-        
+        height: 35vh;   
+        background-position:center;     
     }
     img {	
         height:20rem;	
@@ -161,6 +165,7 @@ button:hover{
         flex-flow:column wrap;
         justify-content: center;
         align-items: center;
+        font-size: 1.35rem;
     }
     .artist{
         width:100%;
